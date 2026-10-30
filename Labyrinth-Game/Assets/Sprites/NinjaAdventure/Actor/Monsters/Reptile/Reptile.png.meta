@@ -1,9 +1,48 @@
 fileFormatVersion: 2
 guid: 7ae228dda5514c74c9e421d05112d405
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 6156032726297556276
+    second: Reptile_0
+  - first:
+      213: -1430511401354620805
+    second: Reptile_1
+  - first:
+      213: -613766231379400643
+    second: Reptile_2
+  - first:
+      213: -3624197258180533149
+    second: Reptile_3
+  - first:
+      213: -8588256460174210935
+    second: Reptile_4
+  - first:
+      213: 6880475154457748703
+    second: Reptile_5
+  - first:
+      213: 9138485257646618351
+    second: Reptile_6
+  - first:
+      213: 9199568416701599017
+    second: Reptile_7
+  - first:
+      213: -935550634455398301
+    second: Reptile_8
+  - first:
+      213: -4123151536764360774
+    second: Reptile_9
+  - first:
+      213: -416449663515335173
+    second: Reptile_10
+  - first:
+      213: 6441235684894231443
+    second: Reptile_11
+  - first:
+      213: 5151097888386605578
+    second: Reptile_12
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -34,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,12 +106,12 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -80,7 +119,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,8 +132,21 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Server
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -114,18 +166,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 47
+        width: 33
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 6b4d8f0befff5924d9e7112bb10f6f59
-      internalID: 650471458
+      spriteID: 43535a4062f9e6550800000000000000
+      internalID: 6156032726297556276
       vertices: []
       indices: 
       edges: []
@@ -134,19 +187,20 @@ TextureImporter:
       name: Reptile_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 0
+        y: 31
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 8e6ad434551271f4eb9a4ff167f9ce75
-      internalID: -783383059
+      spriteID: b709c1ba57dc52ce0800000000000000
+      internalID: -1430511401354620805
       vertices: []
       indices: 
       edges: []
@@ -155,19 +209,20 @@ TextureImporter:
       name: Reptile_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
+        x: 15
+        y: 31
+        width: 17
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a29c9f967d7182342ac5135f1b8b8d3a
-      internalID: -1133470714
+      spriteID: d38208b4dd67b77f0800000000000000
+      internalID: -613766231379400643
       vertices: []
       indices: 
       edges: []
@@ -176,19 +231,20 @@ TextureImporter:
       name: Reptile_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
+        x: 32
+        y: 47
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: fce85bf283d725a4e9dc6aa5d15a4c09
-      internalID: 945261040
+      spriteID: 3646436abc344bdc0800000000000000
+      internalID: -3624197258180533149
       vertices: []
       indices: 
       edges: []
@@ -197,19 +253,20 @@ TextureImporter:
       name: Reptile_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 32
+        y: 31
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 9d22859b0a640404880437a1672cd031
-      internalID: 955643939
+      spriteID: 988cc53804260d880800000000000000
+      internalID: -8588256460174210935
       vertices: []
       indices: 
       edges: []
@@ -218,19 +275,20 @@ TextureImporter:
       name: Reptile_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
+        x: 48
+        y: 47
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 7b475abf00b179642bfabfc4cb3de4f0
-      internalID: -37946011
+      spriteID: fd4ea5bd2bb5c7f50800000000000000
+      internalID: 6880475154457748703
       vertices: []
       indices: 
       edges: []
@@ -239,19 +297,20 @@ TextureImporter:
       name: Reptile_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
+        x: 48
+        y: 31
         width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: ecc8de17172d8324ca66975d9d855e81
-      internalID: -271833774
+      spriteID: fe6bb2f8ceb62de70800000000000000
+      internalID: 9138485257646618351
       vertices: []
       indices: 
       edges: []
@@ -260,19 +319,20 @@ TextureImporter:
       name: Reptile_7
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
+        x: 0
+        y: 15
+        width: 33
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 611f8ab11cb5d134b8a442a2ab995463
-      internalID: -558548286
+      spriteID: 92dc66ccbbe6baf70800000000000000
+      internalID: 9199568416701599017
       vertices: []
       indices: 
       edges: []
@@ -282,18 +342,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 0
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 0025eb3472ec4894fa971abf17674c31
-      internalID: -1968297035
+      spriteID: 36805eb97a14403f0800000000000000
+      internalID: -935550634455398301
       vertices: []
       indices: 
       edges: []
@@ -303,18 +364,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 16
-        width: 16
-        height: 16
+        y: 0
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 573ae8f8d9e1949458b9d9fac647c10d
-      internalID: 1341780937
+      spriteID: ab7ed00d58f97c6c0800000000000000
+      internalID: -4123151536764360774
       vertices: []
       indices: 
       edges: []
@@ -324,18 +386,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 32
-        y: 16
+        y: 15
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 73cca16fb0c383f4dbaacd50a6ed4663
-      internalID: -689493965
+      spriteID: bf5665bcc39783af0800000000000000
+      internalID: -416449663515335173
       vertices: []
       indices: 
       edges: []
@@ -344,19 +407,20 @@ TextureImporter:
       name: Reptile_11
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 32
+        y: 0
+        width: 32
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: 62a46a563f400854da76218804bde68c
-      internalID: 2125042180
+      spriteID: 39bc0b07abdd36950800000000000000
+      internalID: 6441235684894231443
       vertices: []
       indices: 
       edges: []
@@ -365,113 +429,51 @@ TextureImporter:
       name: Reptile_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8766831d8ad7c7d4995e6a7d0405fd5e
-      internalID: -1840003435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reptile_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5372527f281ae77469ef0f73d8a1fc9c
-      internalID: -902808064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reptile_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 62220342fc2cba34db45ca39b04ac1db
-      internalID: 2095998043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Reptile_15
-      rect:
-        serializedVersion: 2
         x: 48
-        y: 0
+        y: 15
         width: 16
-        height: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: 0
+      tessellationDetail: -1
       bones: []
-      spriteID: a8664241512fa0b498b7baaff2dadf5e
-      internalID: 976939925
+      spriteID: a026c80ec306c7740800000000000000
+      internalID: 5151097888386605578
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      Reptile_0: 650471458
-      Reptile_1: -783383059
-      Reptile_10: -689493965
-      Reptile_11: 2125042180
-      Reptile_12: -1840003435
-      Reptile_13: -902808064
-      Reptile_14: 2095998043
-      Reptile_15: 976939925
-      Reptile_2: -1133470714
-      Reptile_3: 945261040
-      Reptile_4: 955643939
-      Reptile_5: -37946011
-      Reptile_6: -271833774
-      Reptile_7: -558548286
-      Reptile_8: -1968297035
-      Reptile_9: 1341780937
+      Reptile_0: 6156032726297556276
+      Reptile_1: -1430511401354620805
+      Reptile_10: -416449663515335173
+      Reptile_11: 6441235684894231443
+      Reptile_12: 5151097888386605578
+      Reptile_2: -613766231379400643
+      Reptile_3: -3624197258180533149
+      Reptile_4: -8588256460174210935
+      Reptile_5: 6880475154457748703
+      Reptile_6: 9138485257646618351
+      Reptile_7: 9199568416701599017
+      Reptile_8: -935550634455398301
+      Reptile_9: -4123151536764360774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
