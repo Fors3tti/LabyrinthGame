@@ -5,13 +5,18 @@ public class PlayerMovement : MonoBehaviour
     [Header("Config")]
     [SerializeField] private float speed;
 
+    private readonly int moveX = Animator.StringToHash("MoveX");
+    private readonly int moveY = Animator.StringToHash("MoveY");
+
     private InputSystem_Actions actions;
     private Rigidbody2D rb2D;
+    private Animator animator;
     private Vector2 moveDirection;
 
     private void Awake()
     {
         actions = new InputSystem_Actions();
+        animator = GetComponent<Animator>();
         rb2D = GetComponent<Rigidbody2D>();
     }
 
@@ -33,6 +38,14 @@ public class PlayerMovement : MonoBehaviour
     private void ReadMovement()
     {
         moveDirection = actions.Player.Move.ReadValue<Vector2>().normalized;
+
+        if (moveDirection == Vector2.zero)
+        {
+            return;
+        }
+
+        animator.SetFloat(moveX, moveDirection.x);
+        animator.SetFloat(moveY, moveDirection.y);
     }
 
     private void OnEnable()
